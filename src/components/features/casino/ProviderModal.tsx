@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { X, List } from 'lucide-react';
-import { providers } from '../data/providers';
-import { useGameContext } from '../context/GameContext';
+import { providers } from '../../../data/providers';
+import { useGameContext } from '../../../context/GameContext';
 
 const ProviderModal: React.FC = () => {
   const { filters, setFilters, isProviderModalOpen, setIsProviderModalOpen } = useGameContext();

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useGameContext } from '../context/GameContext';
-import { providers } from '../data/providers';
+import { useGameContext } from '../../../context/GameContext';
+import { providers } from '../../../data/providers';
 
 const ProviderSlider: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);

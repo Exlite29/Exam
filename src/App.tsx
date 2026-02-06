@@ -1,14 +1,14 @@
 import React, { useState, createContext, useContext } from 'react';
 import { GameProvider } from './context/GameContext';
-import Header from './components/Header';
-import HeroBanner from './components/HeroBanner';
-import ProviderSlider from './components/ProviderSlider';
-import CategoryTabs from './components/CategoryTabs';
-import GameGrid from './components/GameGrid';
-import FloatingActions from './components/FloatingActions';
-import Footer from './components/Footer';
-import CasinoInfo from './components/CasinoInfo';
-import ProviderModal from './components/ProviderModal';
+import Header from './components/layout/Header';
+import HeroBanner from './components/features/casino/HeroBanner';
+import ProviderSlider from './components/features/casino/ProviderSlider';
+import CategoryTabs from './components/features/casino/CategoryTabs';
+import GameGrid from './components/features/casino/GameGrid';
+import FloatingActions from './components/layout/FloatingActions';
+import Footer from './components/layout/Footer';
+import CasinoInfo from './components/features/casino/CasinoInfo';
+import ProviderModal from './components/features/casino/ProviderModal';
 
 // Create a navigation context
 type Page = 'lobby' | 'casino-info';

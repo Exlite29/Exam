@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Star } from 'lucide-react';
-import { useGameContext } from '../context/GameContext';
-import type { Game } from '../types';
+import { useGameContext } from '../../../context/GameContext';
+import type { Game } from '../../../types';
 
 interface GameCardProps {
   game: Game;

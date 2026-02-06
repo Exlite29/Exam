@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGameContext } from '../context/GameContext';
+import { useGameContext } from '../../../context/GameContext';
 import {
   Home,
   Flame,
@@ -15,7 +15,7 @@ import {
   Star,
   List
 } from 'lucide-react';
-import type { Category } from '../types';
+import type { Category } from '../../../types';
 
 
 
