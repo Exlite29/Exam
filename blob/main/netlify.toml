@@ -1,5 +1,6 @@
 # netlify.toml
 [build]
-  base = ""
+  # remove or set to "." for root, or "subfolder-name" for a subfolder
+  base = "."
+  publish = "dist"       # set to your build output directory
   command = "npm run build"
-  publish = "dist"
